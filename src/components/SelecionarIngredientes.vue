@@ -1,6 +1,6 @@
 <script lang="ts">
 import { obterCategorias } from '@/http/index'
-import type ICategoria from '@/interfaces/iCategoria';
+import type ICategoria from '../interfaces/ICategoria.ts';
 
   export default {
     data() {
