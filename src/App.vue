@@ -11,6 +11,7 @@
 <template>
   <Banner />
   <ConteudoPrincipal />
+  <updateHook />
 </template>
 
 <style scoped></style>
