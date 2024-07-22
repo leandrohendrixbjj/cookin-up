@@ -2,6 +2,7 @@
   
   import Banner from './components/Banner.vue'
   import ConteudoPrincipal from './components/ConteudoPrincipal.vue'
+  import desmontagemHook from './hook/desmontagemHook.vue'
      
   export default {
     components: { Banner, ConteudoPrincipal }    
@@ -10,8 +11,8 @@
 
 <template>
   <Banner />
-  <ConteudoPrincipal />
-  <updateHook />
+  <ConteudoPrincipal />  
+  <desmontagemHook />
 </template>
 
 <style scoped></style>
