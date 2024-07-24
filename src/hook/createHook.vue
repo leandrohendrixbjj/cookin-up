@@ -1,5 +1,4 @@
-<script lang="ts">
-  /* 
+<!-- 
     [beforeCreate] => é executado imediatamente assim que um componente é inicializado. 
     Nesse momento, estados e propriedades computadas ainda não foram processadas.
     Esse hook é bastante útil, por exemplo, para realizar uma solicitação de autenticação. 
@@ -22,8 +21,9 @@
     [mounted] => O mounted é executado imediatamente após o componente ser montado. Nesse estágio, o componente se 
     torna funcional: as propriedades de data() são injetadas no template, os elementos são renderizados e a 
     manipulação do DOM se torna possível.    
-  */
-   
+-->
+
+<script lang="ts">    
   export default {    
     data() {
       return { 
