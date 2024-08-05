@@ -2,17 +2,15 @@
   
   import Banner from './components/Banner.vue'
   import ConteudoPrincipal from './components/ConteudoPrincipal.vue'
-  import setupHook from './hook/setupHook.vue';
-     
+       
   export default {
-    components: { Banner, ConteudoPrincipal, setupHook }    
+    components: { Banner, ConteudoPrincipal }    
   }  
 </script>
 
 <template>
   <Banner />
-  <ConteudoPrincipal />    
-  <setupHook />
+  <ConteudoPrincipal />      
 </template>
 
 <style scoped></style>
