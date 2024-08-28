@@ -19,7 +19,7 @@ import Tag from './Tag.vue';
         
         <ul class="categoria__ingredientes">
           <li v-for="ingrediente in categoria.ingredientes" :key="ingrediente">            
-            <Tag :texto="ingrediente" />
+            <Tag :texto="ingrediente" :ativa=true />
           </li>
         </ul>  
         
